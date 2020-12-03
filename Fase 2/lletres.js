@@ -1,7 +1,5 @@
 let lletres = ["C","A","R","L","0","T","A"];
 const vocals = ["A","E","I","O","U"];
-let i;
-let j;
 
 console.log("Partim del nom: CARL0TA");
 
