@@ -5,7 +5,11 @@ console.log("Partim del nom: CARL0TA");
 
 toUpper = function(x){ 
     return x.toUpperCase();
-  };
+};
+
+toLower = function(x){ 
+return x.toLowerCase();
+};
 
 lletres = lletres.map(toUpper);
 
@@ -29,10 +33,6 @@ lletres.map(function(lletra){
         }
     }
 })
-
-toLower = function(x){ 
-    return x.toLowerCase();
-  };
 
 lletres = lletres.map(toLower);
 
