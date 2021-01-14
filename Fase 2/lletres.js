@@ -1,7 +1,15 @@
-let lletres = ["C","A","R","L","0","T","A"];
+let lletres = ["c","a","r","l","o","t","a"];
 const vocals = ["A","E","I","O","U"];
 
 console.log("Partim del nom: CARL0TA");
+
+toUpper = function(x){ 
+    return x.toUpperCase();
+  };
+
+lletres = lletres.map(toUpper);
+
+console.log(lletres);
 
 lletres.map(function(lletra){
     if (!isNaN(lletra)) {
@@ -21,3 +29,11 @@ lletres.map(function(lletra){
         }
     }
 })
+
+toLower = function(x){ 
+    return x.toLowerCase();
+  };
+
+lletres = lletres.map(toLower);
+
+console.log(lletres);
